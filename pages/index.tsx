@@ -57,23 +57,23 @@ const Home: NextPage = () => {
         </section>
 
         <section>
-          <a class="btn primary" href="https://docs.google.com/forms/d/e/1FAIpQLScOs2yZgKenGxNTTdWmvP0UMUvo39lPW4NQzhxHIzDdApeVLA/viewform?usp=sf_link">Zur Anmeldung ✏️</a>
+          <a className="btn primary" href="https://docs.google.com/forms/d/e/1FAIpQLScOs2yZgKenGxNTTdWmvP0UMUvo39lPW4NQzhxHIzDdApeVLA/viewform?usp=sf_link">Zur Anmeldung ✏️</a>
         </section>
 
         <section>
           <h2>🧭 Wie kommen wir zur Hintergger-Ranch?</h2>
 
-          <a class="btn" target="blank" href="https://www.google.com/maps/dir/Takern-St.Margarethen+Bahnhof,+8321/47.0282614,15.7714242/@47.0358,15.7439679,4501m/data=!3m2!1e3!4b1!4m9!4m8!1m5!1m1!1s0x476e538b170e9001:0x9c491967a8029e0f!2m2!1d15.757852!2d47.045659!1m0!3e2">🚂 vom Bahnhof Takern</a>
-          <a class="btn" target="blank" href="https://www.google.com/maps/dir/Gleisdorf,+8200/47.0282614,15.7714242/@47.0664296,15.6975194,9738m/data=!3m2!1e3!4b1!4m9!4m8!1m5!1m1!1s0x476e51b7d865316b:0x4a4cd8df13e8ef3a!2m2!1d15.7085092!2d47.1068416!1m0!3e0">🚗 von Gleisdorf</a>
-          <a class="btn" target="blank" href="https://www.google.com/maps/dir/Gleisdorf,+8200/47.0282614,15.7714242/@47.0664296,15.6975194,9738m/data=!3m2!1e3!4b1!4m9!4m8!1m5!1m1!1s0x476e51b7d865316b:0x4a4cd8df13e8ef3a!2m2!1d15.7085092!2d47.1068416!1m0!3e0">🚗 von Markt Hartmannsdorf</a>
+          <a className="btn" target="blank" href="https://www.google.com/maps/dir/Takern-St.Margarethen+Bahnhof,+8321/47.0282614,15.7714242/@47.0358,15.7439679,4501m/data=!3m2!1e3!4b1!4m9!4m8!1m5!1m1!1s0x476e538b170e9001:0x9c491967a8029e0f!2m2!1d15.757852!2d47.045659!1m0!3e2">🚂 vom Bahnhof Takern</a>
+          <a className="btn" target="blank" href="https://www.google.com/maps/dir/Gleisdorf,+8200/47.0282614,15.7714242/@47.0664296,15.6975194,9738m/data=!3m2!1e3!4b1!4m9!4m8!1m5!1m1!1s0x476e51b7d865316b:0x4a4cd8df13e8ef3a!2m2!1d15.7085092!2d47.1068416!1m0!3e0">🚗 von Gleisdorf</a>
+          <a className="btn" target="blank" href="https://www.google.com/maps/dir/Gleisdorf,+8200/47.0282614,15.7714242/@47.0664296,15.6975194,9738m/data=!3m2!1e3!4b1!4m9!4m8!1m5!1m1!1s0x476e51b7d865316b:0x4a4cd8df13e8ef3a!2m2!1d15.7085092!2d47.1068416!1m0!3e0">🚗 von Markt Hartmannsdorf</a>
 
-          <p>oder <a class="inline-flex underline underline-offset-2" href="https://www.citytaxi.at/">CityTaxi Gleisdorf</a>!</p>
+          <p>oder <a className="inline-flex underline underline-offset-2" href="https://www.citytaxi.at/">CityTaxi Gleisdorf</a>!</p>
         </section>
 
         <section>
           <h2>🏕️ Übernachtungsmöglichkeiten</h2>
 
-          <ul class="flex flex-col gap-2">
+          <ul className="flex flex-col gap-2">
             <li>
               <a href="https://www.gasthof-gruber.at/">Gasthof Gruber</a>
             </li>
@@ -84,7 +84,7 @@ const Home: NextPage = () => {
               <a href="http://bauernhofzoller.com/de/willkommen/">Bauernhof Zolller</a>
             </li>
             <li><a href="https://ambio.co.at/">Ambio, Hotel (Gleisdorf)</a></li>
-            <li class="font-bold">oder campieren auf der Hintergger-Ranch!</li>
+            <li className="font-bold">oder campieren auf der Hintergger-Ranch!</li>
           </ul>
         </section>
         <div>wir freuen uns schon!!</div>
